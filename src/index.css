@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+h1 {
+  font-size: 100px;
+  animation: opacity 1s infinite;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
